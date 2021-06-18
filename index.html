@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "index.js"></script>
+    <link href = "style.css" rel ="stylesheet">
+</head>
+<body>
+<h1>Fafa's Music Quiz</h1>
+
+    <form name="musicQuiz" id="quiz"><ol type = 1>
+<!--Question 1-->
+<li><p class = "questions"> Which of the following was hip hop group The Pharcyde's second album release?</p></li>
+<input type = "radio" id= "mc" name = "question1" value = "Bizarre Ride II the Pharcyde"> Bizarre Ride II the Pharcyde<br>
+<input type = "radio" id= "mc" name = "question1" value = "Plain Rap"> Plain Rap<br>
+<input type = "radio" id= "mc" name = "question1" value = "Labcabincalifornia"> Labcabincalifornia<br>
+<input type = "radio" id= "mc" name = "question1" value = "Humbolt Beginnings"> Humbolt Beginnings<br>
+<!--Question 2-->
+<li><p class = "questions">Who was the lead singer of Nirvana?</p></li>
+<input id = "textbox" type = "text" name = "question2">
+<!--Question 3-->
+<li><p class = "questions">Who was not featured on Chief Keef's "Don't Like" remix?</p></li>
+<input type = "radio" id= "mc" name = "question3" value = "Kanye West"> Kanye West<br>
+<input type = "radio" id= "mc" name = "question3" value = "Big Sean"> Big Sean<br>
+<input type = "radio" id= "mc" name = "question3" value = "Jadakiss"> Jadakiss<br>
+<input type = "radio" id= "mc" name = "question3" value = "Lil Wayne"> Lil Wayne<br>
+<!--Question 4-->
+<!--<li><p class = "questions">Who is not a member of the migos?</p></li>-->
+   </ol> 
+
+   <input id = "button" type = "button" value = "Check Answers" onclick = "checkAnswer();">
+</form>
+<p id = "number_correct"></p>
+</body>
+</html>
